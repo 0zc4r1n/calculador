@@ -50,5 +50,5 @@ $(EXE_FILENAME)         :   $(CXX_OBJ_FILES)
 
 %.o                     :   $(CXX_SRCS)
 	$(COMPILE_CXX_COMMAND)
-clean
+clean			:
 	rm -rf *.o $(EXE_FILENAME)

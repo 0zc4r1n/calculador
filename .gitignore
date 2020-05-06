@@ -4,3 +4,5 @@
 *.a
 # ignore build folder
 build
+# ignore binary
+calculador
