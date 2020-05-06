@@ -1,0 +1,5 @@
+[requires]
+operaciones/0.1.1@0zc4r1n/stable
+
+[generators]
+make

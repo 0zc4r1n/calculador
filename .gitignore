@@ -1,0 +1,6 @@
+# ignore all objects
+*.o
+# ignore all library
+*.a
+# ignore build folder
+build
