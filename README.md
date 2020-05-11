@@ -40,5 +40,5 @@ make
 
 ## Ejecución
 ```
-1. cd src && ./calculador
+cd src && ./calculador
 ```
