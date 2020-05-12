@@ -100,7 +100,7 @@ pipeline {
 					try {
 						sh 'cd src/test/src && make clean'
 						sh 'cd src && make clean'
-						sh 'rm -rf build
+						sh 'rm -rf build'
 
 						RESULTADO = "Se eliminaron correctamente las carpetas temporales"
 					} catch( Exception err ) {
