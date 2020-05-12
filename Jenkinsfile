@@ -37,7 +37,7 @@ pipeline {
 						RESULTADO = "Se ha generado un error: ${err}: al momento de obtener las dependencias del binario calculador"
 						
 						office365ConnectorSend message: "${COMMIT_ID}: ${RESULTADO}", status:"${currentBuild.result}", webhookUrl:"${DEV_UXPOS_WEBHOOK}"
-						sh 'exit 1"		
+						sh 'exit 1'		
 					}
 				}
 			}
