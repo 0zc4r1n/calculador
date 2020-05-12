@@ -64,6 +64,7 @@ pipeline {
 			steps {
 				script {
 					try {
+						sh 'cd src/test/src && make'
 						sh 'cd src && test/src/test'
 						RESULTADO = "Se han ejecutado correctamente las pruebas del binario calculador"
 					} catch( Exception err ) {
