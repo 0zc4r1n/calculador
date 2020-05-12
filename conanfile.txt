@@ -1,5 +1,5 @@
 [requires]
-operaciones/0.1.1@0zc4r1n/stable
+operaciones/0.1.1@uxpos/stable
 
 [generators]
 make
