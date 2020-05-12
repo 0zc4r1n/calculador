@@ -8,3 +8,7 @@ cd ../src
 echo "Eliminano artefactos"
 rm -rf *.o calculador
 make
+echo "Compilando Test"
+cd test/src
+make clean
+make
